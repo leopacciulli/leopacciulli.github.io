@@ -1,0 +1,37 @@
+.container-fluid {
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+.header-bg {
+    background: #333;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.header-content {
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+}
+
+
+.header-content h2 {
+    margin-bottom: 14px;
+}
+
+.header-content h5 {
+    font-size: 18px;
+    margin-bottom: 14px;
+    letter-spacing: 1.2px;
+}
+
+.header-content p {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+}

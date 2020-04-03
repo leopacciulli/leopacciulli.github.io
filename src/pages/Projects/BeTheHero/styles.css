@@ -1,0 +1,123 @@
+.section-project {
+    padding: 30px 100px;
+    background: #f7f7f7;
+}
+
+.title-project {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #333333;
+}
+
+.flex-subtitle {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.flex-subtitle div {
+    margin: 0 8px;
+}
+
+.title-info {
+    text-align: center;
+    font-size: 21px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.icons img {
+    width: 20px;
+    height: 25px;
+}
+
+.flex-div {
+    display: flex;
+    margin-top: 50px;
+}
+
+.description-info {
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+
+.a-link {
+    text-decoration: none;
+    color: #7159C1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.a-link:hover {
+    text-decoration: underline;
+}
+
+.flex-tech {
+    display: flex;
+    align-items: center;
+}
+
+.width-div {
+    justify-content: space-between;
+}
+
+.techs-info {
+    width: 48%;
+}
+
+.techs {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.list-techs {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.list-techs li {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.comand {
+    font-size: 16px;
+    background: #ecf3f9;
+}
+
+.repository {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #666666;
+}
+
+.a-repo {
+    font-size: 18px;
+}
+
+.repository a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.repository a:hover {
+    text-decoration: underline;
+}
+
+.img-project {
+    width: 50%;
+}
+
+.img-project img {
+    height: 400px;
+    width: auto;
+}
