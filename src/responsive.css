@@ -1,0 +1,521 @@
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    /********** SIDEBAR **********/
+    .sidebar-nav .sidebar-brand {
+        max-width: 120px;
+        padding: 30px 0;
+    }
+    .sidebar-nav .menu-item {
+        font-size: 16px;
+    }
+    /********** END SIDEBAR **********/
+
+    /********** HEADER **********/
+    header {
+        padding: 50px;
+    }
+    .select-default {
+        top: 15px !important;
+        right: 10px !important;
+    }
+    .page-container .header-content {
+        font-size: 32px;
+    }
+    .page-container .header-content p {
+        font-size: 16px;
+    }
+    /********** END HEADER **********/
+
+    /********** CONTENT **********/
+    .page-container .page-header {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .page-container .timeline-role {
+        font-size: 14px;
+    }
+    .page-container .timeline-com {
+        font-size: 16px;
+    }
+    .page-container .timeline-item {
+        min-height: 130px;
+    }
+    .col-md-9 {
+        width: 70%;
+        margin-left: 6%;
+    }
+    .container p {
+        font-size: 14px;
+    }
+    .page-container .project {
+        width: 50%;
+        height: 350px;
+    }
+    .page-container .contact-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .contact-content {
+        width: 100%;
+    }
+    .page-container .contact-content.border-right {
+        border-bottom: 1px solid #ddd;
+        border-right: none;
+    }
+    .page-container footer .container {
+        margin-top: 20px;
+    }
+    /********** END CONTENT **********/
+
+    /********** PROJECTS **********/
+    .page-container .section-project {
+        padding: 30px 50px;
+    }
+    .page-container .description-info {
+        font-size: 16px;
+    }
+    .page-container .flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .techs-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .page-container .img-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /********** END PROJECTS **********/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /********** SIDEBAR **********/
+    .sidebar-nav .sidebar-brand {
+        max-width: 120px;
+        padding: 30px 0;
+    }
+    .sidebar-nav .menu-item {
+        font-size: 14px;
+    }
+    /********** END SIDEBAR **********/
+
+    /********** HEADER **********/
+    header {
+        padding: 30px;
+    }
+    .flex-flag img {
+        width: 30px;
+        height: 30px;
+    }
+    .select-default {
+        top: 15px !important;
+        right: 10px !important;
+    }
+    .header-content h5 {
+        font-size: 16px !important;
+    }
+    .page-container .header-content {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .page-container .header-content p {
+        font-size: 16px;
+    }
+    /********** END HEADER **********/
+
+    /********** CONTENT **********/
+    .page-container section .container {
+        padding: 0px 30px;
+    }
+    .page-container section .container.padding-less {
+        padding: 0px 15px;
+    }
+    .page-container .page-header {
+        font-size: 21px;
+        padding-top: 30px;
+    }
+    .page-container .timeline-date {
+        font-size: 14px;
+    }
+    .page-container .timeline-role {
+        font-size: 13px;
+    }
+    .page-container .timeline-location {
+        font-size: 13px;
+    }
+    .page-container .timeline-com {
+        font-size: 14px;
+    }
+    .page-container .timeline-item {
+        min-height: 150px;
+    }
+    .col-md-9 {
+        width: 70%;
+        margin-left: 6%;
+    }
+    .container p {
+        font-size: 12px;
+    }
+    .page-container .project {
+        width: 100%;
+        height: 330px;
+    }
+    .page-container .contact-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .contact-content {
+        width: 100%;
+    }
+    .page-container .contact-content.border-right {
+        border-bottom: 1px solid #ddd;
+        border-right: none;
+    }
+    .page-container .img-project img {
+        height: 300px;
+    }
+    .page-container footer .container {
+        margin-top: 20px;
+    }
+    .page-container .footer-info {
+        font-size: 16px;
+    }
+    .page-container .content-info {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    /********** END CONTENT **********/
+
+    /********** PROJECTS **********/
+    .page-container .section-project {
+        padding: 30px 50px;
+    }
+    .page-container .description-info {
+        font-size: 16px;
+    }
+    .page-container .flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .techs-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .page-container .img-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /********** END PROJECTS **********/
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /********** SIDEBAR **********/
+    .page-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .sidebar-wrapper {
+        width: 100%;
+        overflow-y: initial;
+        height: auto;
+        position: relative;
+    }
+    .sidebar-nav {
+        position: relative !important;
+    }
+    .sidebar-nav .sidebar-brand {
+        max-width: 120px;
+        padding: 0px;
+    }
+    .sidebar-nav .menu-item {
+        font-size: 14px;
+    }
+    .menu-footer {
+        width: 25%;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .page-container .flex-ul {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+    /********** END SIDEBAR **********/
+
+    /********** HEADER **********/
+    .page-container .page-content-wrapper {
+        width: 100%;
+        left: 0%;
+    }
+    header {
+        padding: 30px;
+    }
+    .flex-flag img {
+        width: 30px;
+        height: 30px;
+    }
+    .select-default {
+        top: 15px !important;
+        right: 10px !important;
+    }
+    .header-content h5 {
+        font-size: 16px !important;
+    }
+    .page-container .header-content {
+        font-size: 22px;
+        margin-top: 0px;
+    }
+    .page-container .header-content p {
+        font-size: 16px;
+    }
+    /********** END HEADER **********/
+
+    /********** CONTENT **********/
+    .page-container section .container {
+        padding: 0px 30px;
+    }
+    .page-container section .container.padding-less {
+        padding: 0px 15px;
+    }
+    .page-container .page-header {
+        font-size: 21px;
+        padding-top: 30px;
+    }
+    .page-container .timeline-date {
+        font-size: 14px;
+    }
+    .page-container .timeline-role {
+        font-size: 13px;
+    }
+    .page-container .timeline-location {
+        font-size: 13px;
+    }
+    .page-container .timeline-com {
+        font-size: 14px;
+    }
+    .page-container .timeline-item {
+        min-height: 150px;
+    }
+    .col-md-9 {
+        width: 70%;
+        margin-left: 6%;
+    }
+    .container p {
+        font-size: 12px;
+    }
+    .page-container .project {
+        width: 100%;
+        height: 330px;
+    }
+    .page-container .contact-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .contact-content {
+        width: 100%;
+    }
+    .page-container .contact-content.border-right {
+        border-bottom: 1px solid #ddd;
+        border-right: none;
+    }
+    .page-container .img-project img {
+        height: 300px;
+    }
+    .page-container footer .container {
+        margin-top: 20px;
+    }
+    .page-container .footer-info {
+        font-size: 16px;
+    }
+    .page-container .content-info {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    /********** END CONTENT **********/
+
+    /********** PROJECTS **********/
+    .page-container .section-project {
+        padding: 30px 30px;
+    }
+    .page-container .description-info {
+        font-size: 16px;
+    }
+    .page-container .flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .techs-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .page-container .img-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /********** END PROJECTS **********/
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+    /********** SIDEBAR **********/
+    .page-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .sidebar-wrapper {
+        width: 100%;
+        overflow-y: initial;
+        height: auto;
+        position: relative;
+    }
+    .sidebar-nav {
+        position: relative !important;
+    }
+    .sidebar-nav .sidebar-brand {
+        max-width: 120px;
+        padding: 0px;
+    }
+    .sidebar-nav .menu-item {
+        font-size: 12px;
+        padding: 7px;
+        font-weight: bold;
+    }
+    .sidebar-nav .menu-item.back-media {
+        font-size: 18px;
+    }
+    .menu-footer {
+        width: 25%;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .page-container .flex-ul {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+    /********** END SIDEBAR **********/
+
+    /********** HEADER **********/
+    .page-container .page-content-wrapper {
+        width: 100%;
+        left: 0%;
+    }
+    header {
+        padding: 30px;
+    }
+    .flex-flag img {
+        width: 30px;
+        height: 30px;
+    }
+    .select-default {
+        top: 15px !important;
+        right: 10px !important;
+    }
+    .header-content h5 {
+        font-size: 14px !important;
+    }
+    .page-container .header-content {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .page-container .header-content p {
+        font-size: 14px;
+    }
+    /********** END HEADER **********/
+
+    /********** CONTENT **********/
+    .page-container section .container {
+        padding: 0px 30px;
+    }
+    .page-container section .container.padding-less {
+        padding: 0px 15px;
+    }
+    .page-container .page-header {
+        font-size: 21px;
+        padding-top: 30px;
+    }
+    .page-container .timeline-date {
+        font-size: 12px;
+    }
+    .page-container .timeline-role {
+        font-size: 12px;
+    }
+    .page-container .timeline-location {
+        font-size: 12px;
+    }
+    .page-container .timeline-com {
+        font-size: 12px;
+    }
+    .page-container .timeline-item {
+        min-height: 160px;
+    }
+    .col-md-9 {
+        width: 70%;
+        margin-left: 6%;
+    }
+    .container p {
+        font-size: 11px;
+    }
+    .page-container .project {
+        width: 100%;
+        height: 330px;
+    }
+    .page-container .contact-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .contact-content {
+        width: 100%;
+    }
+    .page-container .contact-content.border-right {
+        border-bottom: 1px solid #ddd;
+        border-right: none;
+    }
+    .page-container .img-project img {
+        height: 300px;
+    }
+    .page-container footer .container {
+        margin-top: 20px;
+        padding: 0 30px;
+    }
+    .page-container .footer-info {
+        font-size: 14px;
+    }
+    .page-container .content-info {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    /********** END CONTENT **********/
+
+    /********** PROJECTS **********/
+    .page-container .section-project {
+        padding: 20px 30px;
+    }
+    .page-container .description-info {
+        font-size: 16px;
+    }
+    .page-container .flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-container .techs-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .page-container .img-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .page-container .repository {
+        margin-top: 0px;
+    }
+    /********** END PROJECTS **********/
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+}

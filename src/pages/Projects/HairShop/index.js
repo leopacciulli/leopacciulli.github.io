@@ -23,15 +23,15 @@ function HairShop({ intl }) {
                         <img src={me} alt={"me"} />
                     </li>
                     <li onClick={() => history.push("/")} className="noActive">
-                        <a href={"#home"} className="menu-item page-scroll">
+                        <a href={"#home"} className="menu-item back-media page-scroll">
                             {intl.formatMessage({ id: "sidebar.back" })}
                         </a>
                     </li>
                     <li className="menu-footer">
                         <h6>
-                            <FiDownload size={19} color="#FFF" />
                             <a className="download" href="/src/cv.pdf" target="_blank">
-                                Download CV
+                                <FiDownload size={19} color="#FFF" />
+                                <div>Download CV</div>
                             </a>
                         </h6>
                     </li>

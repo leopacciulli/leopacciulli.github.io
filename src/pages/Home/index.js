@@ -27,7 +27,7 @@ function Home({ intl }) {
 
     const history = useHistory();
 
-    const active = nav => {
+    const active = (nav) => {
         if (nav === "home") {
             setHomeActive(true);
             setEducationActive(false);
@@ -73,6 +73,14 @@ function Home({ intl }) {
         history.push("/project/weather");
     };
 
+    let cv =
+        intl.locale === "en-US"
+            ? "https://1drv.ms/b/s!AnLrgYinS7ViiSCGyfY5XFkr1IiK"
+            : "https://1drv.ms/w/s!AnLrgYinS7Vih3XACCdiYOneDjOW?e=KZiB15";
+
+    const mdMin = window.matchMedia("(min-width: 480px)");
+    const mdMax = window.matchMedia("(max-width: 767px)");
+
     return (
         <div className="page-container">
             <div className="sidebar-wrapper">
@@ -80,36 +88,68 @@ function Home({ intl }) {
                     <li className="sidebar-brand">
                         <img src={me} alt={"me"} />
                     </li>
-                    <li onClick={() => active("home")} className={isHomeActive ? "active" : "noActive"}>
-                        <a href={"#home"} className="menu-item page-scroll">
-                            {intl.formatMessage({ id: "sidebar.home" })}
-                        </a>
-                    </li>
-                    <li onClick={() => active("education")} className={isEducationActive ? "active" : "noActive"}>
-                        <a href={"#education"} className="menu-item page-scroll">
-                            {intl.formatMessage({ id: "sidebar.education" })}
-                        </a>
-                    </li>
-                    <li onClick={() => active("experience")} className={isExperienceActive ? "active" : "noActive"}>
-                        <a href={"#experience"} className="menu-item page-scroll">
-                            {intl.formatMessage({ id: "sidebar.experience" })}
-                        </a>
-                    </li>
-                    <li onClick={() => active("portfolio")} className={isPortfolioActive ? "active" : "noActive"}>
-                        <a href={"#portfolio"} className="menu-item page-scroll">
-                            {intl.formatMessage({ id: "sidebar.portfolio" })}
-                        </a>
-                    </li>
-                    <li onClick={() => active("contact")} className={isContactActive ? "active" : "noActive"}>
-                        <a href={"#contact"} className="menu-item page-scroll">
-                            {intl.formatMessage({ id: "sidebar.contact" })}
-                        </a>
-                    </li>
+                    {mdMin.matches && mdMax.matches ? (
+                        <div className="flex-ul">
+                            <li onClick={() => active("home")} className={isHomeActive ? "active" : "noActive"}>
+                                <a href={"#home"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.home" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("education")} className={isEducationActive ? "active" : "noActive"}>
+                                <a href={"#education"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.education" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("experience")} className={isExperienceActive ? "active" : "noActive"}>
+                                <a href={"#experience"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.experience" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("portfolio")} className={isPortfolioActive ? "active" : "noActive"}>
+                                <a href={"#portfolio"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.portfolio" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("contact")} className={isContactActive ? "active" : "noActive"}>
+                                <a href={"#contact"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.contact" })}
+                                </a>
+                            </li>
+                        </div>
+                    ) : (
+                        <div>
+                            <li onClick={() => active("home")} className={isHomeActive ? "active" : "noActive"}>
+                                <a href={"#home"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.home" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("education")} className={isEducationActive ? "active" : "noActive"}>
+                                <a href={"#education"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.education" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("experience")} className={isExperienceActive ? "active" : "noActive"}>
+                                <a href={"#experience"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.experience" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("portfolio")} className={isPortfolioActive ? "active" : "noActive"}>
+                                <a href={"#portfolio"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.portfolio" })}
+                                </a>
+                            </li>
+                            <li onClick={() => active("contact")} className={isContactActive ? "active" : "noActive"}>
+                                <a href={"#contact"} className="menu-item page-scroll">
+                                    {intl.formatMessage({ id: "sidebar.contact" })}
+                                </a>
+                            </li>
+                        </div>
+                    )}
                     <li className="menu-footer">
                         <h6>
-                            <FiDownload size={19} color="#FFF" />
-                            <a className="download" href="/src/cv.pdf" target="_blank">
-                                Download CV
+                            <a className="download" href={cv} target="blank">
+                                <FiDownload size={19} color="#FFF" />
+                                <div>Download CV</div>
                             </a>
                         </h6>
                     </li>
@@ -253,7 +293,7 @@ function Home({ intl }) {
                         <div className="container">
                             <div className="page-header">
                                 <h3>
-                                {intl.formatMessage({ id: "contact.title" })}
+                                    {intl.formatMessage({ id: "contact.title" })}
                                     <span className="text-primary">.</span>
                                 </h3>
                             </div>
@@ -285,7 +325,7 @@ function Home({ intl }) {
                                             <FiGlobe size={21} color="#209cee" />
                                             <div className="content-name">{intl.formatMessage({ id: "contact.website" })}</div>
                                         </div>
-                                        <div className="content-info">leopacc.com.br</div>
+                                        <div className="content-info">https://leonardopacciulli.netlify.com/</div>
                                     </div>
                                 </div>
                                 <div className="contact-content">

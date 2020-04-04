@@ -26,15 +26,15 @@ function BeTheHero({ intl }) {
                         <img src={me} alt={"me"} />
                     </li>
                     <li onClick={() => history.push("/")} className="noActive">
-                        <a href={"#home"} className="menu-item page-scroll">
+                        <a href={"#home"} className="menu-item back-media page-scroll">
                             {intl.formatMessage({ id: "sidebar.back" })}
                         </a>
                     </li>
                     <li className="menu-footer">
                         <h6>
-                            <FiDownload size={19} color="#FFF" />
                             <a className="download" href="/src/cv.pdf" target="_blank">
-                                Download CV
+                                <FiDownload size={19} color="#FFF" />
+                                <div>Download CV</div>
                             </a>
                         </h6>
                     </li>
@@ -71,7 +71,8 @@ function BeTheHero({ intl }) {
                         ,{intl.formatMessage({ id: "hero.challenge" })}
                         <br />
                         <br />
-                        <strong>{intl.formatMessage({ id: "project.title" })}: </strong>{intl.formatMessage({ id: "hero.startProject" })}
+                        <strong>{intl.formatMessage({ id: "project.title" })}: </strong>
+                        {intl.formatMessage({ id: "hero.startProject" })}
                     </div>
 
                     <div className="flex-div width-div">

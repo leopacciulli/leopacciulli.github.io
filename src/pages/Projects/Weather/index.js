@@ -23,15 +23,15 @@ function Weather({ intl }) {
                         <img src={me} alt={"me"} />
                     </li>
                     <li onClick={() => history.push("/")} className="noActive">
-                        <a href={"#home"} className="menu-item page-scroll">
+                        <a href={"#home"} className="menu-item back-media page-scroll">
                             {intl.formatMessage({ id: "sidebar.back" })}
                         </a>
                     </li>
                     <li className="menu-footer">
                         <h6>
-                            <FiDownload size={19} color="#FFF" />
                             <a className="download" href="/src/cv.pdf" target="_blank">
-                                Download CV
+                                <FiDownload size={19} color="#FFF" />
+                                <div>Download CV</div>
                             </a>
                         </h6>
                     </li>
@@ -54,10 +54,12 @@ function Weather({ intl }) {
                         </div>
                     </div>
                     <div className="description-info">
-                        <strong>{intl.formatMessage({ id: "challenge.title" })}: </strong>{intl.formatMessage({ id: "weather.challenge" })}
+                        <strong>{intl.formatMessage({ id: "challenge.title" })}: </strong>
+                        {intl.formatMessage({ id: "weather.challenge" })}
                         <br />
                         <br />
-                        <strong>{intl.formatMessage({ id: "project.title" })}: </strong>{intl.formatMessage({ id: "weather.project" })}
+                        <strong>{intl.formatMessage({ id: "project.title" })}: </strong>
+                        {intl.formatMessage({ id: "weather.project" })}
                     </div>
 
                     <div className="flex-div width-div">

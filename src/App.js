@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import I18nProvider from "./commom/I18nProvider";
 import "./global.css";
+import "./responsive.css";
 
 import { languages } from "./i18n";
 import Routes from "./routes";
