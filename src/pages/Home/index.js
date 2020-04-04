@@ -311,7 +311,7 @@ function Home({ intl }) {
                                             <FiMail size={21} color="#209cee" />
                                             <div className="content-name">{intl.formatMessage({ id: "contact.email" })}</div>
                                         </div>
-                                        <div className="content-info">paculi@hotmail.com</div>
+                                        <div className="content-info">paculli@hotmail.com</div>
                                     </div>
                                     <div className="content">
                                         <div className="content-flex">
