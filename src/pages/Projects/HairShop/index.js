@@ -15,6 +15,11 @@ import "./styles.css";
 function HairShop({ intl }) {
     const history = useHistory();
 
+    let cv =
+        intl.locale === "en-US"
+            ? "https://1drv.ms/b/s!AnLrgYinS7ViiSCGyfY5XFkr1IiK"
+            : "https://1drv.ms/w/s!AnLrgYinS7Vih3XACCdiYOneDjOW?e=KZiB15";
+
     return (
         <div className="page-container">
             <div className="sidebar-wrapper">
@@ -29,7 +34,7 @@ function HairShop({ intl }) {
                     </li>
                     <li className="menu-footer">
                         <h6>
-                            <a className="download" href="/src/cv.pdf" target="_blank">
+                            <a className="download" href={cv} target="blank">
                                 <FiDownload size={19} color="#FFF" />
                                 <div>Download CV</div>
                             </a>

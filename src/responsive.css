@@ -364,6 +364,11 @@
         display: flex;
         flex-direction: column;
     }
+    .page-container .flex-flag img {
+        width: 35px;
+        height: 35px;
+        margin: 0 10px;
+    }
     .page-container .sidebar-wrapper {
         width: 100%;
         overflow-y: initial;
@@ -397,6 +402,9 @@
         display: flex;
         justify-content: center;
         padding: 15px 0px;
+    }
+    .page-container .menu-footer h6 {
+        font-size: 12px !important;
     }
     /********** END SIDEBAR **********/
 
@@ -517,5 +525,81 @@
     /********** END PROJECTS **********/
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 430px) {
+    header {
+        padding: 20px;
+    }
+    .select-default {
+        top: 10px !important;
+        right: 0px !important;
+    }
+    .flex-flag img {
+        width: 35px !important;
+        height: 35px !important;
+        margin: 0 10px !important;
+    }
+    .sidebar-nav .sidebar-brand {
+        max-width: 100px !important;
+    }
+    .page-container section .container {
+        padding: 0px 10px;
+    }
+    .page-container .page-header {
+        padding-top: 20px;
+    }
+    .page-container .timeline-point {
+        height: 6px;
+        width: 6px;
+        position: absolute;
+        left: -15px;
+        top: 1px;
+        border-radius: 50%;
+    }
+    .page-container .timeline-item {
+        min-height: 180px;
+    }
+    .page-container .off-timeline-point {
+        box-shadow: 0 0 0 5px #eee;
+    }
+    .page-container .timeline-role {
+        font-size: 11px;
+    }
+    .page-container .timeline {
+        border-left-width: 3px;
+        padding-left: 10px;
+    }
+    .page-container .col-md-9 {
+        width: 65%;
+        margin-left: 10%;
+    }
+    .page-container .content-info {
+        font-size: 11px;
+        margin-left: 0px;
+        word-break: break-word;
+    }
+    .page-container .repository a {
+        word-break: break-word;
+    }
+    .page-container .comand {
+        font-size: 14px;
+        background: #ecf3f9;
+        word-break: break-word;
+    }
+    .page-container .title-project {
+        font-size: 30px;
+    }
+    .page-container .flex-subtitle div {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+    .page-container .icons img {
+        width: 32px;
+        height: 22px;
+    }
+    .page-container .section-project {
+        padding: 20px 15px;
+    }
+    .page-container .img-project img {
+        height: 230px;
+    }
 }
