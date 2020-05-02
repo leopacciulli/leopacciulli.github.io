@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  The project is my personal website to share my info's with you
+</h3>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/leopacciulli/leopacciulli.github.io?color=yellow">
+  
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/leopacciulli/leopacciulli.github.io?color=yellow">
 
-In the project directory, you can run:
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/leopacciulli/leopacciulli.github.io?color=yellow">
+  
+  <img alt="Made by Rocketseat" src="https://img.shields.io/github/license/leopacciulli/leopacciulli.github.io">
 
-### `yarn start`
+  <img alt="ReactJS version" src="https://img.shields.io/badge/React.JS-v16.13.1-60dafb?style=flat&logoColor=60dafb&logo=react">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### 📝 About the project
+An application where the objective is to show my personal projects, my experiences working as a Front-end Developer, my academic training and share with you my contact.
 
-### `yarn test`
+<div align="center">
+  <img src="./src/assets/portfolio.gif" width="550px" />
+</div>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `yarn build`
+## 🖥 Front-End
+The Front-End was developed with React.JS. I use i18n to internationalize the project and can be translated between portuguese and english language. The navigation screens were made with React Router DOM.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛠 Technologies
+- **[React.JS](https://reactjs.org/)**
+- *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🖥 To run the **Front-End**, in a terminal, execute the following commands:
 
-### `yarn eject`
+````zsh
+# to enter the project folder
+$ cd leopacciulli.github.io
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# to download the dependencies
+$ yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# to start the application on port 3000
+$ yarn start
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h3 align="center">
+  Made with love by 💙 Leonardo Pacciulli
+</h3>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<p align="center">
+  <a href="https://www.linkedin.com/in/leonardo-pacciulli">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-/in/leonardopacciulli-0e76a8?style=flat&logoColor=white&logo=linkedin">
+  </a>
+  <a href="https://www.facebook.com/paculli">
+    <img alt="Facebook" src="https://img.shields.io/badge/Facebook-/LeonardoPacciulli-1778F2?style=flat&logoColor=white&logo=facebook">
+  </a>
+  <a href="https://www.instagram.com/leopacciulli/">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-@leopacciulli-833AB4?style=flat&logoColor=white&logo=instagram">
+  </a>
+</p>
